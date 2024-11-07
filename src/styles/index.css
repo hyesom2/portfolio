@@ -1,0 +1,4 @@
+/* ========== base ========== */
+@import "@/styles/base/_global.css";
+@import "@/styles/base/_mini-reset.css";
+@import "@/styles/base/_reset.css";
