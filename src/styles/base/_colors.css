@@ -13,6 +13,7 @@
   --light-red: #FF3B30;
   --light-teal: #59ADC4;
   --light-yellow: #FFCC00;
+  --light-inactive: #CECDCD;
   /* dark mode colors */
   --dark-blue: #0A84FF;
   --dark-brown: #AC8E68;
@@ -24,7 +25,8 @@
   --dark-orange: #FF9F0A;
   --dark-pink: #FF375F;
   --dark-purple: #BF5AF2;
-  --dark-red: ##FF453A;
+  --dark-red: #FF453A;
   --dark-teal: #6AC4DC;
   --dark-yellow: #FFD60A;
+  --dark-inactive: #58595B;
 }

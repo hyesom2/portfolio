@@ -1,0 +1,64 @@
+.traffic-lights {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+
+  .button {
+    width: 12px;
+    height: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 50%;
+  }
+  /* light mode */
+  &.light.active {
+    .close {
+      background-color: var(--light-red);
+    }
+    .minimize {
+      background-color: var(--light-yellow);
+    }
+    .maximize {
+      background-color: var(--light-green);
+    }
+  }
+  &.light.inactive {
+    .button {
+      background-color: var(--light-inactive);
+    }
+  }
+  &.light.non-expandable {
+    .maximize {
+      background-color: var(--light-inactive);
+    }
+  }
+  /* dark mode */
+  &.dark.active {
+    .close {
+      background-color: var(--dark-red);
+    }
+    .minimize {
+      background-color: var(--dark-yellow);
+    }
+    .maximize {
+      background-color: var(--dark-green);
+    }
+  }
+  &.dark.inactive {
+    .button {
+      background-color: var(--dark-inactive);
+    }
+  }
+  &.dark.non-expandable {
+    .maximize {
+      background-color: var(--dark-inactive);
+    }
+  }
+
+  /* inactive */
+  [disabled] {
+    opacity: .6;
+    cursor: default;
+  }
+}
