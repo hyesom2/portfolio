@@ -1,5 +1,7 @@
 /* ========== base ========== */
 @import "@/styles/base/_globals.css";
+@import "@/styles/base/_fonts.css";
 @import "@/styles/base/_mini-reset.css";
 @import "@/styles/base/_reset.css";
 @import "@/styles/base/_colors.css";
+@import "@/styles/base/_shadows.css";
