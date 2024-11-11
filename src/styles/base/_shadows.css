@@ -1,0 +1,10 @@
+:root {
+  --inner-top-shadow: 0px 0.5px 0.5px 0px rgba(255, 255, 255, 0.5);
+  --inner-bottom-shadow: 0px -0.5px 0px 0px rgba(0, 0, 0, 0.05);
+  --drop-shadow: 0px 0.5px 0px 0px rgba(0, 0, 0, 0.15);
+  
+  --frame-drop-default-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+  --frame-drop-bottom-shadow: 0px 25px 30px 0px rgba(0, 0, 0, 0.35);
+
+  --menuItem-drop-bottom-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+}
