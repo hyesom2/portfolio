@@ -13,7 +13,9 @@
   --light-red: #FF3B30;
   --light-teal: #59ADC4;
   --light-yellow: #FFCC00;
+  --light-font: #3D3D3D;
   --light-inactive: #CECDCD;
+  --light-inactive-bg: #F6F6F6;
   /* dark mode colors */
   --dark-blue: #0A84FF;
   --dark-brown: #AC8E68;
@@ -27,6 +29,12 @@
   --dark-purple: #BF5AF2;
   --dark-red: #FF453A;
   --dark-teal: #6AC4DC;
-  --dark-yellow: #FFD60A;
+  --dark-yellow: #FFD60A; 
+  --dark-font: #EBEBF5;
   --dark-inactive: #58595B;
+  --dark-bg: #1E1E1E;
+  --dark-window-bg: #282828;
+  /* colors */
+  --white: #FFFFFF;
+  --black: #000000;                
 }
