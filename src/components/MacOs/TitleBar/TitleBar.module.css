@@ -22,7 +22,7 @@
 
   &.light-active, 
   &.light-active-not {
-    backgorund-color: var(--white);
+    background-color: var(--white);
     color: var(--light-font);
   }
   &.light-inactive {
