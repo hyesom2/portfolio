@@ -16,6 +16,7 @@
   --light-font: #3D3D3D;
   --light-inactive: #CECDCD;
   --light-inactive-bg: #F6F6F6;
+  --light-inactive-bg-opacity: #F6F6F6;
   /* dark mode colors */
   --dark-blue: #0A84FF;
   --dark-brown: #AC8E68;
@@ -34,6 +35,7 @@
   --dark-inactive: #58595B;
   --dark-bg: #1E1E1E;
   --dark-window-bg: #282828;
+  --dark-window-bg-opacity: #999999;
   /* colors */
   --white: #FFFFFF;
   --black: #000000;                
