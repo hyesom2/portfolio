@@ -1,0 +1,16 @@
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  &.light {
+    background-image: url("/assets/images/light.webp");
+  }
+  
+  &.dark {
+    background-image: url("/assets/images/dark.webp");
+  }
+}
