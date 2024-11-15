@@ -1,15 +1,17 @@
 .window-frame {
+  position: relative;
+  z-index: 100;
   border: 0.5px solid rgba(0, 0, 0, 0.12);
   border-color: rgba(0, 0, 0, 0.12);
   border-radius: 10px;
   box-shadow: var(--frame-drop-default-shadow), var(--frame-drop-bottom-shadow);
   min-height: 100px;
-  height: 100%;
-  padding-bottom: 30px;
+  /* height: 100%; */
+  /* padding-bottom: 30px; */
 
   .contents {
     height: 100%;
-    padding: 12px 12px 0 12px;
+    /* padding: 12px 12px 0 12px; */
   }
   
   &.light-active,
