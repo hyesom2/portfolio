@@ -5,3 +5,6 @@
 @import "@/styles/base/_reset.css";
 @import "@/styles/base/_colors.css";
 @import "@/styles/base/_shadows.css";
+
+/* ========== icons ========== */
+@import "@/styles/icons/_instagram-icons.css";
