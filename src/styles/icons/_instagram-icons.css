@@ -24,48 +24,87 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-messages:before {
-  content: "\e901";
-}
-.icon-share:before {
+.icon-instagram_logo:before {
   content: "\e900";
 }
-.icon-like-filled:before {
+.icon-chevron-down:before {
+  content: "\e91a";
+}
+.icon-verfied-badge:before {
+  content: "\e901";
+}
+.icon-pinned:before {
+  content: "\e902";
+}
+.icon-gallery:before {
+  content: "\e903";
+}
+.icon-messages:before {
+  content: "\e91b";
+}
+.icon-add-user:before {
+  content: "\e904";
+}
+.icon-camera:before {
   content: "\e905";
 }
-.icon-like:before {
+.icon-grid:before {
   content: "\e906";
 }
-.icon-home-filled:before {
+.icon-chevron-left:before {
   content: "\e907";
 }
-.icon-home:before {
+.icon-chevron-right:before {
   content: "\e908";
 }
-.icon-instagram:before {
+.icon-chevron-up:before {
   content: "\e909";
 }
-.icon-instagram-logo:before {
+.icon-close:before {
   content: "\e90a";
 }
-.icon-menu:before {
+.icon-comment:before {
   content: "\e90b";
 }
-.icon-profile:before {
+.icon-create-filled:before {
   content: "\e90c";
 }
-.icon-reels-filled:before {
+.icon-create:before {
   content: "\e90d";
 }
-.icon-reels:before {
+.icon-profile:before {
   content: "\e90e";
 }
-.icon-search-filled:before {
+.icon-share:before {
   content: "\e90f";
 }
-.icon-search:before {
+.icon-menu:before {
   content: "\e910";
 }
-.icon-create:before {
+.icon-instagram:before {
   content: "\e911";
+}
+.icon-like-filled:before {
+  content: "\e912";
+}
+.icon-like:before {
+  content: "\e913";
+}
+.icon-reels-filled:before {
+  content: "\e914";
+}
+.icon-reels:before {
+  content: "\e915";
+}
+.icon-search-filled:before {
+  content: "\e916";
+}
+.icon-search:before {
+  content: "\e917";
+}
+.icon-home-filled:before {
+  content: "\e918";
+}
+.icon-home:before {
+  content: "\e919";
 }
