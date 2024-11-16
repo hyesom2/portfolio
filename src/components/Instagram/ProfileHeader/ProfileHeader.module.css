@@ -1,0 +1,127 @@
+.profile-header {
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+  padding: 30px 0;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  padding: 0 80px;
+  gap: 80px;
+}
+.profile-img {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  background: linear-gradient(45deg, #fcb045, #fd1d1d, #833ab4);
+  border-radius: 50%;
+  flex-shrink: 0;
+
+  img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    height: 150px;
+    background-color: var(--white);
+    border-radius: 50%;
+    padding: 0.5rem;
+  }
+}
+.profile-info-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  .follow-container {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+  .follow-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    font-size: 14px;
+
+    dt {
+      font-weight: 600;
+    }
+    dl {
+      font-weight: 400;
+    }
+  }
+}
+.profile-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+
+  .button-group {
+    display: flex;
+    gap: 8px;
+
+    button {
+      background-color: var(--insta-button-gray);
+      border-radius: 0.5rem;
+      color: var(--black);
+      padding: 8px 16px;
+
+      &:hover {
+        background-color: var(--insta-button-gray-hover);
+      }
+    }
+  }
+}
+
+.story-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-srtart;
+  align-items: center;
+  padding: 0 30px;
+
+  li {
+    background-color: var(--white);
+    border: 1px solid var(--insta-button-gray);
+    border-radius: 50%;
+    margin-right: 16px;
+    cursor: pointer;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &:hover {
+      outline: 2px solid var(--insta-button-gray-hover);
+    }
+  }
+
+  figure {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+
+    img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    figcaption {
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      white-space: nowrap;
+    }
+  }
+}

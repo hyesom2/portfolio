@@ -7,7 +7,7 @@ function MenuBar() {
       <nav className={styles["menu"]}>
         <h1 className={styles.logo}>
           <a href="/">
-            <Icon name="icon-instagram-logo" />
+            <Icon name="icon-instagram_logo" />
           </a>
         </h1>
         <ul className={styles["menu-list"]}>

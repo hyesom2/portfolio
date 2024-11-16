@@ -46,4 +46,6 @@
   --insta-nav-border: #DBDBDB;
   --insta-nav-hover: rgba(0, 0, 0, 0.05);
   --insta-inactive: #FAFAFA;
+  --insta-button-gray: #EFEFEF;
+  --insta-button-gray-hover: rgba(219, 219, 219);
 }
