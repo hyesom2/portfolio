@@ -43,9 +43,13 @@
   
   /* ========== instagram ========== */
   --insta-black: #262626;
+  --insta-gray: #8E8E8E;
   --insta-nav-border: #DBDBDB;
   --insta-nav-hover: rgba(0, 0, 0, 0.05);
   --insta-inactive: #FAFAFA;
   --insta-button-gray: #EFEFEF;
   --insta-button-gray-hover: rgba(219, 219, 219);
+  --insta-purple: #833AB4;
+  --insta-orange: #FD1D1D;
+  --insta-yellow: #FCB045;
 }
