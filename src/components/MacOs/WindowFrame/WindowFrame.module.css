@@ -5,13 +5,11 @@
   border-color: rgba(0, 0, 0, 0.12);
   border-radius: 10px;
   box-shadow: var(--frame-drop-default-shadow), var(--frame-drop-bottom-shadow);
-  min-height: 100px;
-  /* height: 100%; */
-  /* padding-bottom: 30px; */
-
+  height: calc(100% - 24px);
+  overflow-y: scroll;
+  
   .contents {
-    height: 100%;
-    /* padding: 12px 12px 0 12px; */
+    padding-top: 28px;
   }
   
   &.light-active,
