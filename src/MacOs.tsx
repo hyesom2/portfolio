@@ -10,7 +10,7 @@ function MacOs() {
       <section className={`${styles.container} ${styles.light}`}>
         <MenuBar type="light" />
         <Dock type="light" />
-        <WindowFrame type="light-active">
+        <WindowFrame type="light-active" title="Instagram">
           <Instagram />
         </WindowFrame>
       </section>

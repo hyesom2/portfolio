@@ -1,0 +1,76 @@
+.profile-body {
+  margin-top: 3.75rem;
+}
+.profile-tab {
+  width: 100%;
+  height: 3.5rem;
+  border-top: 1px solid var(--insta-nav-border);
+}
+.profile-tab-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3.75rem;
+  height: 100%;
+}
+.profile-tab-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  cursor: pointer;
+  
+  button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: var(--insta-gray);
+    text-transform: uppercase;
+    gap: 0.5rem;
+  }
+
+  &.is-active {
+    border-top: 1px solid var(--insta-black);
+
+    button {
+      color: var(--insta-black);
+    }
+  }
+}
+
+.profile-posts-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 0.25rem;
+  column-gap: 0.25rem;
+}
+.profile-posts-item {
+  position: relative;
+  display: block;
+  width: 18.75rem;
+  height: 18.75rem;
+  cursor: pointer;
+
+  figure {
+    width: 100%;
+    height: 100%;
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  
+  span {
+    position: absolute;
+    top: 0.25rem;
+    right: 0.25rem;
+    color: var(--white);
+    z-index: 100;
+  }
+}

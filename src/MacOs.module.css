@@ -5,6 +5,7 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  overflow: hidden;
 
   &.light {
     background-image: url("/assets/images/light.webp");

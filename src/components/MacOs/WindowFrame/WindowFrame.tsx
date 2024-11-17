@@ -5,13 +5,14 @@ import TitleBar from "@/components/MacOs/TitleBar/TitleBar";
 interface WindowFrameTypes {
   children?: ReactNode;
   type: string;
+  title?: string;
   blur?: boolean;
 }
 
-function WindowFrame({ children, type, blur }: WindowFrameTypes) {
+function WindowFrame({ children, type, title, blur }: WindowFrameTypes) {
   return (
-    <section className={`${styles["window-frame"]} ${styles[type]} ${blur ? styles["blur"] : ""}`}>
-      <TitleBar type={`${type}`}>Windows Title (Active)</TitleBar>
+    <section className={`no-scroll ${styles["window-frame"]} ${styles[type]} ${blur ? styles["blur"] : ""}`}>
+      <TitleBar type={`${type}`}>{ title }</TitleBar>
       <div className={`${styles.contents}`}>
         {children}  
       </div>

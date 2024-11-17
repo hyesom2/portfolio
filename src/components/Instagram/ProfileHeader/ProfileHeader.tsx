@@ -39,13 +39,13 @@ function ProfileHeader() {
         </div>
       </div>
       <ul className={styles["story-list"]}>
-        <li>
+        <li className={styles["story-item"]}>
           <figure>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB8CRGWRZPbCfuuqLMVI9hrnlYfFGXJQSa_Q&s" alt="스토리1" />
             <figcaption>치즈덕1</figcaption>
           </figure>
         </li>
-        <li>
+        <li className={styles["story-item"]}>
           <figure>
             <img src="https://www.wishbucket.io/_next/image?url=https%3A%2F%2Fd2gfz7wkiigkmv.cloudfront.net%2Fpickin%2F2%2F1%2F2%2FUsZmPTA3SUuHjgiFpOCfsg&w=1080&q=75" alt="스토리2" />
             <figcaption>치즈덕2</figcaption>

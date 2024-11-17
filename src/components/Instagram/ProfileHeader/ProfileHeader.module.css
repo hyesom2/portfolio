@@ -1,31 +1,31 @@
 .profile-header {
   display: flex;
   flex-direction: column;
-  gap: 44px;
-  padding: 30px 0;
+  gap: 2.75rem;
 }
 
 .profile {
   display: flex;
   flex-direction: row;
-  padding: 0 80px;
-  gap: 80px;
+  padding: 0 5rem;
+  gap: 5rem;
 }
 .profile-img {
   position: relative;
-  width: 160px;
-  height: 160px;
-  background: linear-gradient(45deg, #fcb045, #fd1d1d, #833ab4);
+  width: 10rem;
+  height: 10rem;
+  background: linear-gradient(45deg, var(--insta-yellow), var(--insta-orange), var(--insta-purple));
   border-radius: 50%;
   flex-shrink: 0;
+  cursor: pointer;
 
   img {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 150px;
-    height: 150px;
+    width: 9.375rem;
+    height: 9.375rem;
     background-color: var(--white);
     border-radius: 50%;
     padding: 0.5rem;
@@ -34,18 +34,18 @@
 .profile-info-wrapper {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 1.25rem;
 
   .follow-container {
     display: flex;
     flex-direction: row;
-    gap: 40px;
+    gap: 2.5rem;
   }
   .follow-wrapper {
     display: flex;
     flex-direction: row;
-    gap: 4px;
-    font-size: 14px;
+    gap: 0.25rem;
+    font-size: 0.875rem;
 
     dt {
       font-weight: 600;
@@ -60,17 +60,17 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  gap: 16px;
+  gap: 1rem;
 
   .button-group {
     display: flex;
-    gap: 8px;
+    gap: 0.5rem;
 
     button {
       background-color: var(--insta-button-gray);
       border-radius: 0.5rem;
       color: var(--black);
-      padding: 8px 16px;
+      padding: 0.5rem 1rem;
 
       &:hover {
         background-color: var(--insta-button-gray-hover);
@@ -84,34 +84,26 @@
   flex-direction: row;
   justify-content: flex-srtart;
   align-items: center;
-  padding: 0 30px;
+  padding: 0 1.875rem;
+}
 
-  li {
-    background-color: var(--white);
-    border: 1px solid var(--insta-button-gray);
-    border-radius: 50%;
-    margin-right: 16px;
-    cursor: pointer;
-
-    &:last-child {
-      margin-right: 0;
-    }
-
-    &:hover {
-      outline: 2px solid var(--insta-button-gray-hover);
-    }
-  }
+.story-item {
+  background-color: var(--white);
+  border: 1px solid var(--insta-button-gray);
+  border-radius: 50%;
+  margin-right: 1rem;
+  cursor: pointer;
 
   figure {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 4px;
+    padding: 0.25rem;
 
     img {
-      width: 80px;
-      height: 80px;
+      width: 5rem;
+      height: 5rem;
       border-radius: 50%;
       object-fit: cover;
     }
@@ -123,5 +115,13 @@
       transform: translateX(-50%);
       white-space: nowrap;
     }
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &:hover {
+    outline: 2px solid var(--insta-button-gray-hover);
   }
 }
