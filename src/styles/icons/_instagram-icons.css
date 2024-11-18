@@ -24,13 +24,25 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-activity:before {
+  content: "\e91f";
+}
+.icon-bookmark-filled:before {
+  content: "\e91d";
+}
+.icon-bookmark:before {
+  content: "\e91e";
+}
 .icon-instagram_logo:before {
   content: "\e900";
+}
+.icon-link:before {
+  content: "\e91c";
 }
 .icon-chevron-down:before {
   content: "\e91a";
 }
-.icon-verfied-badge:before {
+.icon-badge:before {
   content: "\e901";
 }
 .icon-pinned:before {
@@ -107,4 +119,7 @@
 }
 .icon-home:before {
   content: "\e919";
+}
+.icon-options:before {
+  content: "\e920";
 }
