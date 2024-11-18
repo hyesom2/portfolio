@@ -14,7 +14,7 @@ function WindowFrame({ children, type, title, blur }: WindowFrameTypes) {
     <section className={`no-scroll ${styles["window-frame"]} ${styles[type]} ${blur ? styles["blur"] : ""}`}>
       <TitleBar type={`${type}`}>{ title }</TitleBar>
       <div className={`${styles.contents}`}>
-        {children}  
+        { children }
       </div>
     </section>
   )

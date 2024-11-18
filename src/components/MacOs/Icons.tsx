@@ -4,7 +4,7 @@ interface IconsTypes {
 
 function Icons({ name }: IconsTypes) {
   return (
-    <span className={`icon ${name}`} aria-hideen="true"></span>
+    <span className={`icon ${name}`} aria-hidden="true"></span>
   )
 }
 
