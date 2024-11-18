@@ -1,43 +1,24 @@
 import styles from "@/components/Instagram/MenuBar/MenuBar.module.css";
 import Icon from "@/components/Instagram/InstaIcons";
+import { Link } from "react-router-dom";
 
 function MenuBar() {
   return (
-    <section className={styles["insta-menubar"]}>
+    <section className={styles["menubar"]}>
       <nav className={styles["menu"]}>
         <h1 className={styles.logo}>
-          <a href="/">
+          <Link to="/instagram">
             <Icon name="icon-instagram_logo" />
-          </a>
+          </Link>
         </h1>
         <ul className={styles["menu-list"]}>
           <li>
             <Icon name="icon-home-filled" />
-            <a href="">Home</a>
-          </li>
-          <li>
-            <Icon name="icon-search" />
-            <button type="button">Search</button>
-          </li>
-          <li>
-            <Icon name="icon-reels" />
-            <a href="">Reels</a>
-          </li>
-          <li>
-            <Icon name="icon-messages" />
-            <a href="">Messages</a>
-          </li>
-          <li>
-            <Icon name="icon-like" />
-            <a href="">Notifications</a>
-          </li>
-          <li>
-            <Icon name="icon-create" />
-            <a href="">Create</a>
+            <Link to="/instagram">Home</Link>
           </li>
           <li className={styles["is-active"]}>
             <Icon name="icon-profile" />
-            <a href="/profile">Profile</a>
+            <Link to="/instagram/profile">Profile</Link>
           </li>
         </ul>
         <button type="button" className={styles["more"]}>

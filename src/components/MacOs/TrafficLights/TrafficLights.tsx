@@ -1,16 +1,27 @@
 import styles from "./TrafficLights.module.css";
+import dockStore from "@/store/MacOs/dockStore";
+import { useNavigate } from "react-router-dom";
 
 interface TrafficLightsTypes {
   type: string;
 }
 
 function TrafficLights({ type }: TrafficLightsTypes) {
+  const navigate = useNavigate();
+  const { instagramOpen, setInstagramOpen } = dockStore();
+  function closeButtonHandle() {
+    if (instagramOpen) {
+      navigate("/");
+      setInstagramOpen(false);
+    }
+  }
+
   switch (type) {
     case "light-active": {
       return (
         <ul className={`${styles["traffic-lights"]} ${styles.light} ${styles.active}`}>
           <li>
-            <button type="button" className={`${styles.button} ${styles.close}`}></button>
+            <button type="button" className={`${styles.button} ${styles.close}`} onClick={ closeButtonHandle }></button>
           </li>
           <li>
             <button type="button" className={`${styles.button} ${styles.minimize}`}></button>
