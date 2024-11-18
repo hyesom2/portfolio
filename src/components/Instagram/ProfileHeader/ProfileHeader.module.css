@@ -27,6 +27,7 @@
     width: 9.375rem;
     height: 9.375rem;
     background-color: var(--white);
+    object-fit: cover;
     border-radius: 50%;
     padding: 0.5rem;
   }
@@ -35,6 +36,23 @@
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
+
+  .info-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+
+    strong {
+      font-size: 1.25rem;
+    }
+    
+    span {
+      font-size: 1.25rem;
+      color: var(--insta-badge-blue);
+    }
+  }
 
   .follow-container {
     display: flex;
@@ -67,17 +85,55 @@
     gap: 0.5rem;
 
     button {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
       background-color: var(--insta-button-gray);
       border-radius: 0.5rem;
       color: var(--black);
       padding: 0.5rem 1rem;
-
+      
       &:hover {
         background-color: var(--insta-button-gray-hover);
+      }
+
+      &.following {
+        gap: 4px;
+      }
+      &.resume {
+        text-transform: uppercase;
       }
     }
   }
 }
+.self-introduction-list {
+  display: flex;
+  flex-direction: column;
+  jusitfy-content: flex-start;
+  align-items: flex-start;
+  gap: 0.25rem;
+
+  li {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.25rem;
+    text-transform: uppercase;
+    transition: all 300ms ease-in-out;
+
+    &:hover {
+      font-weight: 700;
+    }
+
+    span {
+      font-weight: 700;
+      color: var(--insta-badge-blue);
+    }
+  }
+}
+
 
 .story-list {
   display: flex;
@@ -88,40 +144,38 @@
 }
 
 .story-item {
-  background-color: var(--white);
-  border: 1px solid var(--insta-button-gray);
-  border-radius: 50%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
   margin-right: 1rem;
   cursor: pointer;
-
-  figure {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  
+  img {
+    display: block;
+    width: 5rem;
+    height: 5rem;
+    border: 1px solid var(--insta-button-gray);
+    background-color: var(--white);
     padding: 0.25rem;
+    border-radius: 50%;
+    object-fit: cover;
+  }
 
-    img {
-      width: 5rem;
-      height: 5rem;
-      border-radius: 50%;
-      object-fit: cover;
-    }
-
-    figcaption {
-      position: absolute;
-      top: 100%;
-      left: 50%;
-      transform: translateX(-50%);
+    span {
+      width: 6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
       white-space: nowrap;
-    }
+      word-break: break-all;
   }
 
   &:last-child {
     margin-right: 0;
   }
 
-  &:hover {
+  &:hover img {
     outline: 2px solid var(--insta-button-gray-hover);
   }
 }
