@@ -11,7 +11,7 @@ function MenuBar() {
           </a>
         </h1>
         <ul className={styles["menu-list"]}>
-          <li className={styles["is-active"]}>
+          <li>
             <Icon name="icon-home-filled" />
             <a href="">Home</a>
           </li>
@@ -35,13 +35,13 @@ function MenuBar() {
             <Icon name="icon-create" />
             <a href="">Create</a>
           </li>
-          <li>
+          <li className={styles["is-active"]}>
             <Icon name="icon-profile" />
             <a href="/profile">Profile</a>
           </li>
         </ul>
         <button type="button" className={styles["more"]}>
-            <Icon name="icon-menu" />
+          <Icon name="icon-menu" />
           <span>More</span>
         </button>
       </nav>
