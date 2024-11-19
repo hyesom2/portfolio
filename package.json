@@ -6,7 +6,7 @@
   "description": "vite custom template을 사용해 React 프로젝트 오토 스캐폴딩",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -24,9 +24,12 @@
     "vite": "^5.3.5"
   },
   "dependencies": {
+    "@types/react-slick": "0.23.13",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "6",
+    "react-slick": "0.30.2",
+    "slick-carousel": "1.8.1",
     "zustand": "5.0.1"
   }
 }
