@@ -28,7 +28,7 @@ function PostModal() {
             (
               <>
                 <div className={styles["postModal-header"]}>
-                  <img src={post.mainImage} alt="" />
+                  <img src={post.mainImage} alt={post.title} />
                   <div className={styles.project}>
                     <strong className={styles.title}>{post.title}</strong>
                     <p className={styles.desc}>{post.description}</p>
