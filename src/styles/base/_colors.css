@@ -52,4 +52,6 @@
   --insta-purple: #833AB4;
   --insta-orange: #FD1D1D;
   --insta-yellow: #FCB045;
+  --insta-overlay: rgba(0, 0, 0, 0.65);
+  --insta-badge-blue: rgb(0, 149, 246);
 }

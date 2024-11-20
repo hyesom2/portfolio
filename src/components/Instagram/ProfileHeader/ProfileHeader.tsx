@@ -1,6 +1,7 @@
 import styles from "@/components/Instagram/ProfileHeader/ProfileHeader.module.css";
 import Icons from "@/components/Instagram/InstaIcons";
 import portfolioData from "@/data/portfolioData";
+import { Link } from "react-router-dom";
 
 function ProfileHeader() {
   return (
@@ -19,12 +20,12 @@ function ProfileHeader() {
             </div>
             <div className={styles["button-group"]}>
               <button type="button" className={styles.following}>Following<Icons name="icon-chevron-down" /></button>
-              <button type="button" className={styles.resume}>resume</button>
+              <Link to="https://malleable-skull-31c.notion.site/1439b76e401c80b3b186c7524702373e" target="_blank" className={styles.resume}>resume</Link>
             </div>
           </div>
           <dl className={styles["follow-container"]}>
             <div className={styles["follow-wrapper"]}>
-              <dt>6</dt>
+              <dt>{ portfolioData.length }</dt>
               <dd>posts</dd>
             </div>
             <div className={styles["follow-wrapper"]}>
@@ -47,8 +48,8 @@ function ProfileHeader() {
       <ul className={styles["story-list"]}>
         {
           portfolioData.map((story) => (
-            <li className={styles["story-item"]}>
-              <img src={ story.image } alt={ story.title } />
+            <li className={styles["story-item"]} key={ story.id }>
+              <img src={ story.mainImage } alt={ story.title } />
               <span>{ story.title }</span>
             </li>
           ))
