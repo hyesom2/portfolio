@@ -1,0 +1,88 @@
+.post-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  display: flex;
+  flex-direction: row;
+  background-color: var(--white);
+  width: 900px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+.left {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: var(--black);
+
+  img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+
+.postModal-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.postModal-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem;
+
+  img {
+    display: block;
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+  }
+
+  .project {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    .title {
+      font-size: 1rem;
+    }
+
+    .desc {
+      font-size: 0.75rem;
+    }
+
+    .tag-list {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 0.25rem;
+    }
+
+    .tag-item {
+      font-size: 0.75rem;
+      color: var(--insta-badge-blue);
+      white-space: nowrap;
+    }
+
+    time {
+      font-size: 0.75rem;
+      color: var(--insta-gray);
+    }
+  }
+}
