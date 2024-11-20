@@ -4,6 +4,7 @@ import MacOs from "@/pages/MacOs/MacOs";
 import Instagram from "@/pages/Instagram/Instagram";
 import Home from "@/pages/Instagram/Home/Home";
 import Profile from "@/pages/Instagram/Profile/Profile";
+import PostModal from "@/components/Instagram/PostModal/PostModal";
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,12 @@ const router = createBrowserRouter([
           {
             path: "profile",
             element: <Profile />,
+            children: [
+              {
+                path: "post/:id",
+                element: <PostModal /> 
+              },
+            ]
           },
         ],
       },

@@ -84,7 +84,7 @@
     display: flex;
     gap: 0.5rem;
 
-    button {
+    .following, .resume {
       display: flex;
       flex-direction: row;
       justify-content: center;
@@ -97,13 +97,13 @@
       &:hover {
         background-color: var(--insta-button-gray-hover);
       }
-
-      &.following {
-        gap: 4px;
-      }
-      &.resume {
-        text-transform: uppercase;
-      }
+    }
+    .following {
+      gap: 4px;
+    }
+    .resume {
+      text-transform: uppercase;
+      font-size: 0.75rem;
     }
   }
 }
