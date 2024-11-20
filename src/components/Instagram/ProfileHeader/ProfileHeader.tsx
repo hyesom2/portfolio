@@ -20,7 +20,7 @@ function ProfileHeader() {
             </div>
             <div className={styles["button-group"]}>
               <button type="button" className={styles.following}>Following<Icons name="icon-chevron-down" /></button>
-              <Link to="https://malleable-skull-31c.notion.site/1439b76e401c80b3b186c7524702373e" className={styles.resume}>resume</Link>
+              <Link to="https://malleable-skull-31c.notion.site/1439b76e401c80b3b186c7524702373e" target="_blank" className={styles.resume}>resume</Link>
             </div>
           </div>
           <dl className={styles["follow-container"]}>
