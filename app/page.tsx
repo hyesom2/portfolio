@@ -1,6 +1,7 @@
 import About from '@/components/about';
 import SlideIn from '@/components/animations/slideIn';
 import Github from '@/components/github';
+import Guestbook from '@/components/guestbook';
 import Profile from '@/components/profile';
 import Projects from '@/components/projects';
 
@@ -15,6 +16,9 @@ export default function Home() {
       </SlideIn>
       <SlideIn>
         <Projects />
+      </SlideIn>
+      <SlideIn>
+        <Guestbook />
       </SlideIn>
       <SlideIn>
         <Github />
