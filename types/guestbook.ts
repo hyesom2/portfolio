@@ -5,3 +5,9 @@ export type Guestbook = {
   profile_img?: string;
   created_at: string;
 };
+
+export type GuestbookResponse = {
+  items: Guestbook[];
+  total: number;
+  pageSize: number;
+};

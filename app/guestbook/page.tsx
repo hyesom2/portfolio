@@ -1,10 +1,16 @@
+import GuestbookClient from '@/app/guestbook/guestbook-client';
 import SlideIn from '@/components/animations/slideIn';
-import GuestbookList from '@/components/guestbook';
+import { getGuestbook } from '@/lib/supabase-guestbook';
+import { Suspense } from 'react';
 
-export default function Guestbook() {
+export default async function Page() {
+  const initialData = await getGuestbook(1);
+
   return (
-    <SlideIn>
-      <GuestbookList />
-    </SlideIn>
+    <Suspense fallback={<div>Loading guestbook...</div>}>
+      <SlideIn>
+        <GuestbookClient initialData={initialData} />
+      </SlideIn>
+    </Suspense>
   );
 }
