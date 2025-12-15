@@ -1,6 +1,7 @@
 'use client';
 
 import SlideIn from '@/components/animations/slideIn';
+import ImageCarousel from '@/components/carousel';
 import { PROJECT_DATA } from '@/data/projectData';
 import { Link as LinkIcon } from 'lucide-react';
 import Image from 'next/image';
@@ -113,7 +114,35 @@ export default function ProjectDetail() {
           </div>
           <div className='flex flex-col gap-2 md:gap-4'>
             <h3 className='text-[40px] font-black uppercase'>서비스 화면</h3>
-            <p></p>
+            <ul className='flex flex-col w-full gap-4'>
+              {currentProject.services.map((service, index) => {
+                const isEven = index % 2 === 0;
+
+                return (
+                  <li
+                    key={service.id}
+                    className={`flex justify-between gap-4 text-left ${
+                      isEven ? 'flex-row-reverse' : 'flex-row'
+                    }`}
+                  >
+                    <ImageCarousel
+                      images={service.image_url}
+                      alt={service.title}
+                    />
+                    <div className='flex flex-col gap-4'>
+                      <h4 className='text-[20px] font-bold md:text-[24px]'>
+                        {service.title}
+                      </h4>
+                      <p className='flex flex-col gap-1 text-[16px] md:text-[18px]'>
+                        {service.description.map((line, index) => (
+                          <span key={index}>{line}</span>
+                        ))}
+                      </p>
+                    </div>
+                  </li>
+                );
+              })}
+            </ul>
           </div>
           <div className='flex flex-col gap-2 md:gap-4'>
             <h3 className='text-[40px] font-black uppercase'>성과 및 배운점</h3>
