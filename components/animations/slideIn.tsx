@@ -1,44 +1,23 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { useEffect, useRef, useState } from 'react';
+
+type SlideInProps = {
+  children: React.ReactNode;
+  distance?: number;
+  duration?: number;
+};
 
 export default function SlideIn({
   children,
   distance = 50,
   duration = 0.8,
-}: {
-  children: React.ReactNode;
-  distance?: number;
-  duration?: number;
-}) {
-  const ref = useRef<HTMLDivElement>(null);
-  const [isVisible, setIsVisible] = useState(false);
-
-  useEffect(() => {
-    const element = ref.current;
-    if (!element) return;
-
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsVisible(true);
-          observer.unobserve(element);
-        }
-      },
-      { threshold: 0.2 },
-    );
-
-    observer.observe(element);
-
-    return () => observer.disconnect();
-  }, []);
-
+}: SlideInProps) {
   return (
     <motion.div
-      ref={ref}
       initial={{ opacity: 0, x: -distance }}
-      animate={isVisible ? { opacity: 1, x: 0 } : {}}
+      whileInView={{ opacity: 1, x: 0 }}
+      viewport={{ once: true, amount: 0.2 }}
       transition={{ duration, ease: 'easeOut' }}
     >
       {children}
