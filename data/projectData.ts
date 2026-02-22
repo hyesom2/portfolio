@@ -92,7 +92,7 @@ export const PROJECT_DATA = [
     subTitle: '당신의 매일의 운동을 간편하게 기록하고, 성취감을 느껴보세요.',
     start_date: '2024. 08.26',
     end_date: '2024. 09. 24',
-    participation: '',
+    participation: '프론트엔드 3명',
     main_image: '/images/projects/dgdg/dgdg.webp',
     github_url: '',
     demo_url: '',
@@ -218,7 +218,7 @@ export const PROJECT_DATA = [
     end_date: '2025. 11. 14',
     participation: '프론트엔드 1명',
     main_image: '/images/projects/rigram/rigram.webp',
-    github_url: 'https://github.com/Photobit-RIGRAM/RIGRAM',
+    github_url: '',
     demo_url: 'https://photobit-rigram.vercel.app',
     skills: [
       'Next.js (App Router)',

@@ -32,21 +32,25 @@ export default function ProjectDetail() {
               </h2>
               <p className='text-[20px] font-bold'>{currentProject.subTitle}</p>
               <div className='flex justify-center items-center gap-4'>
-                <button
-                  type='button'
-                  className='flex justify-center items-center gap-2 cursor-pointer text-[16px]  border border-[#eee] px-4 py-2 rounded-full md:text-[20px] hover:font-bold hover:bg-[#eee]'
-                  onClick={() => handleMoveUrl(currentProject.github_url)}
-                >
-                  <LinkIcon size={20} />
-                  Github
-                </button>
-                <button
-                  className='flex justify-center items-center gap-2 cursor-pointer text-[16px] border border-[#eee] px-4 py-2 rounded-full md:text-[20px] hover:font-bold hover:bg-[#eee]'
-                  onClick={() => handleMoveUrl(currentProject.demo_url)}
-                >
-                  <LinkIcon size={20} />
-                  Demo
-                </button>
+                {currentProject.github_url && (
+                  <button
+                    type='button'
+                    className='flex justify-center items-center gap-2 cursor-pointer text-[16px]  border border-[#eee] px-4 py-2 rounded-full md:text-[20px] hover:font-bold hover:bg-[#eee]'
+                    onClick={() => handleMoveUrl(currentProject.github_url)}
+                  >
+                    <LinkIcon size={20} />
+                    Github
+                  </button>
+                )}
+                {currentProject.demo_url && (
+                  <button
+                    className='flex justify-center items-center gap-2 cursor-pointer text-[16px] border border-[#eee] px-4 py-2 rounded-full md:text-[20px] hover:font-bold hover:bg-[#eee]'
+                    onClick={() => handleMoveUrl(currentProject.demo_url)}
+                  >
+                    <LinkIcon size={20} />
+                    Demo
+                  </button>
+                )}
               </div>
             </div>
           </SlideIn>
