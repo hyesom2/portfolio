@@ -386,4 +386,41 @@ export const PROJECT_DATA = [
       },
     ],
   },
+  {
+    id: 5,
+    title: 'Bloom(블룸)',
+    title_en: 'bloom',
+    subTitle: '나만의 만다라트 계획표 만들기',
+    description: '',
+    start_date: '2025. 02. 01',
+    end_date: '진행중',
+    participation: '프론트엔드 1명',
+    main_image: '',
+    github_url: 'https://github.com/hyesom2/Bloom',
+    demo_url: '',
+    skills: ['React', 'TypeScript', 'TailwindCSS'],
+    main_functions: [''],
+    roles: [
+      {
+        id: 0,
+        title: '',
+        description: '',
+      },
+    ],
+    services: [
+      {
+        id: 0,
+        title: '',
+        description: [],
+        image_url: [],
+      },
+    ],
+    results: [
+      {
+        id: 0,
+        title: '',
+        description: '',
+      },
+    ],
+  },
 ];
