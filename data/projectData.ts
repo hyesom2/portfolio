@@ -197,6 +197,24 @@ export const PROJECT_DATA = [
           '/images/projects/polzzak/login-4.webp',
         ],
       },
+      {
+        id: 1,
+        title: '회원가입 페이지',
+        description: [
+          '가입할 이메일 주소 입력 시, 중복확인 버튼을 클릭하면 이메일 유효성 검사를 합니다.',
+          '비밀번호의 visibility 버튼으로 비밀번호의 노출을 ON/OFF 합니다.',
+          '닉네임 설정의 랜덤 생성 버튼 클릭 시, 닉네임 입력란에 랜덤 닉네임이 출력됩니다. 또, 중복 확인 버튼 클릭 시, 닉네임 유효성 검사를 합니다.',
+          '회원가입 버튼 클릭 시, 이메일, 비밀번호, 닉네임의 값이 모두 있을 경우 가입한 이메일 주소로 회원가입 완료 메일이 전송되고, 안전성을 위해 DB의 유저 목록과 한번 더 비교합니다.',
+          '인증 링크를 클릭하면 회원가입이 완료됩니다.',
+        ],
+        image_url: [
+          '/images/projects/polzzak/register-0.webp',
+          '/images/projects/polzzak/register-1.webp',
+          '/images/projects/polzzak/register-2.webp',
+          '/images/projects/polzzak/register-3.webp',
+          '/images/projects/polzzak/register-4.webp',
+        ],
+      },
     ],
     results: [
       {
