@@ -271,8 +271,21 @@ export const PROJECT_DATA = [
       {
         id: 5,
         title: '지도 페이지',
-        description: [''],
-        image_url: [],
+        description: [
+          '사용자의 현재 위치를 기준으로 반경 3,000m 내 데이터를 지도 위 마커로 제공합니다.',
+          '지도 중심과 검색어를 기반으로 원하는 정보를 탐색할 수 있습니다.',
+          '로그인 여부에 따라 "즐겨찾기"와 "나의폴짝"버튼 UI가 노출되며, 카테고리 필터를 통해 선택한 카테고리에 알맞는 데이터를 렌더링합니다.',
+          '마커를 클릭하면 해당 위치의 정보를 다이얼로그 목록과 상세 정보 형태로 확인할 수 있습니다.',
+          '지도 이동 시, "현재 위치에서 재검색"기능과 "내 위치"버튼을 통해 위치 기반 탐색이 가능합니다.',
+        ],
+        image_url: [
+          '/images/projects/polzzak/map-0.webp',
+          '/images/projects/polzzak/map-1.webp',
+          '/images/projects/polzzak/map-2.webp',
+          '/images/projects/polzzak/map-3.webp',
+          '/images/projects/polzzak/map-4.webp',
+          '/images/projects/polzzak/map-5.webp',
+        ],
       },
       {
         id: 6,
