@@ -215,6 +215,20 @@ export const PROJECT_DATA = [
           '/images/projects/polzzak/register-4.webp',
         ],
       },
+      {
+        id: 2,
+        title: '홈 페이지',
+        description: [
+          'Carousel형식으로 배너가 구성되어 있으며 배너 클릭 시, 해당 키워드로 자동 검색됩니다.',
+          '카테고리 메뉴 탭은 해당 페이지 이동 및 카테고리별로 바로 검색됩니다.',
+          '계절 또는 월별로 다른 테마의 장소를 추천하며 추천 장소 클릭 시, 해당 장소의 상세 페이지 또는 관련 검색 결과 리스트로 이동합니다.',
+        ],
+        image_url: [
+          '/images/projects/polzzak/home-0.webp',
+          '/images/projects/polzzak/home-1.webp',
+          '/images/projects/polzzak/home-2.webp',
+        ],
+      },
     ],
     results: [
       {
