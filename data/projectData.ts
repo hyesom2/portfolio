@@ -248,8 +248,25 @@ export const PROJECT_DATA = [
       {
         id: 4,
         title: '콘텐츠 상세 페이지',
-        description: [''],
-        image_url: [],
+        description: [
+          '검색 결과 리스트 클릭 시, API로 부터 불러온 장소(업체, 축제)의 이미지, 소개글, 이용안내 내용들을 확인할 수 있습니다.',
+          '즐겨찾기 아이콘 클릭 시, 즐겨찾기 할 폴더 선택Modal이 열리며 폴더를 선택합니다.',
+          '폴짝 아이콘 클릭 시, 신규/기존 폴짝을 선택해 스케줄에 추가합니다.',
+          '리뷰작성 아이콘 클릭 시, 콘텐츠 상세 페이지의 리뷰 영역으로 자동 스크롤 합니다. 해당 콘텐츠의 장소에 작성된 리뷰 목록을 확인할 수 있습니다.',
+          '로그인 시 리뷰 작성 기능이 활성화 됩니다.',
+          '리뷰가 3개 이상일 경우 "더보기"버튼이 노출되며 클릭 시, 모든 리뷰를 확인 가능하며 무한 스크롤 방식으로 로딩됩니다.',
+        ],
+        image_url: [
+          '/images/projects/polzzak/content-0.webp',
+          '/images/projects/polzzak/content-1.webp',
+          '/images/projects/polzzak/content-2.webp',
+          '/images/projects/polzzak/content-3.webp',
+          '/images/projects/polzzak/content-4.webp',
+          '/images/projects/polzzak/content-5.webp',
+          '/images/projects/polzzak/content-6.webp',
+          '/images/projects/polzzak/content-7.webp',
+          '/images/projects/polzzak/content-8.webp',
+        ],
       },
       {
         id: 5,
