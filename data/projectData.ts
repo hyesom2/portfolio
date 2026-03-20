@@ -179,7 +179,25 @@ export const PROJECT_DATA = [
           '로그인 되어있는 계정을 회원탈퇴, 로그아웃을 할 수 있습니다.',
       },
     ],
-    services: [],
+    services: [
+      {
+        id: 0,
+        title: '로그인 페이지',
+        description: [
+          '이메일, 비밀번호로 로그인을 합니다. 이메일과 비밀번호는 유효성 검사를 하며 visibility 버튼으로 비밀번호의 노출을 ON/OFF합니다.',
+          '비밀번호 재설정할 때 이메일을 작성하여 해당 이메일로 재설정 링크가 발송됩니다. 링크 클릭 시, 비밀번호 재설정 콜백 페이지에서 비밀변호 변경이 가능합니다.',
+          '로그인 성공 시, alert dialog가 출력되며 확인 버튼을 클릭 시, 홈 화면으로 이동합니다.',
+          '로그인 실패 시, alert dialog가 출력되며 확인 버튼을 클릭 시, 비밀번호 input이 초기화 됩니다.',
+        ],
+        image_url: [
+          '/images/projects/polzzak/login-0.webp',
+          '/images/projects/polzzak/login-1.webp',
+          '/images/projects/polzzak/login-2.webp',
+          '/images/projects/polzzak/login-3.webp',
+          '/images/projects/polzzak/login-4.webp',
+        ],
+      },
+    ],
     results: [
       {
         id: 0,
