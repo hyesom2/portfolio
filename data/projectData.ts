@@ -229,6 +229,52 @@ export const PROJECT_DATA = [
           '/images/projects/polzzak/home-2.webp',
         ],
       },
+      {
+        id: 3,
+        title: '검색 페이지',
+        description: [
+          '검색어, 날짜, 지역(단일 선택), 주제(다중 선택)을 사용하여 검색을 할 수 있습니다.',
+          '검색 결과 페이지에서는 조건별 필터링 기능, 검색 결과 리스트 클릭 시 상세 페이지로 이동, 하트 아이콘 클릭 시 Modal을 통해 즐겨찾기 폴더 선택이 가능합니다.',
+        ],
+        image_url: [
+          '/images/projects/polzzak/search-0.webp',
+          '/images/projects/polzzak/search-1.webp',
+          '/images/projects/polzzak/search-2.webp',
+          '/images/projects/polzzak/search-3.webp',
+          '/images/projects/polzzak/search-4.webp',
+          '/images/projects/polzzak/search-5.webp',
+        ],
+      },
+      {
+        id: 4,
+        title: '콘텐츠 상세 페이지',
+        description: [''],
+        image_url: [],
+      },
+      {
+        id: 5,
+        title: '지도 페이지',
+        description: [''],
+        image_url: [],
+      },
+      {
+        id: 6,
+        title: '폴짝(일정) 페이지',
+        description: [''],
+        image_url: [],
+      },
+      {
+        id: 7,
+        title: '즐겨찾기 페이지',
+        description: [''],
+        image_url: [],
+      },
+      {
+        id: 8,
+        title: '마이페이지',
+        description: [''],
+        image_url: [],
+      },
     ],
     results: [
       {
