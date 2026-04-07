@@ -521,10 +521,10 @@ export const PROJECT_DATA = [
     start_date: '2025. 02. 01',
     end_date: '진행중',
     participation: '프론트엔드 1명',
-    main_image: '',
+    main_image: '/images/projects/bloom/bloom.webp',
     github_url: 'https://github.com/hyesom2/Bloom',
-    demo_url: '',
-    skills: ['React', 'TypeScript', 'TailwindCSS'],
+    demo_url: 'https://mandalart-bloom.vercel.app/',
+    skills: ['React', 'TypeScript', 'TailwindCSS', 'Vite', 'Vercel'],
     main_functions: [''],
     roles: [
       {
