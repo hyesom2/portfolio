@@ -517,7 +517,12 @@ export const PROJECT_DATA = [
     title: 'Bloom(블룸)',
     title_en: 'bloom',
     subTitle: '나만의 만다라트 계획표 만들기',
-    description: '',
+    description: `
+      bloom(블룸)은 "작은 씨앗이 81개의 꽃잎으로 피어나 한 송이의 꽃이 된다." 는 의미의 만다라트 계획표 웹 애플리케이션입니다.
+      사용자는 중심 목표를 설정하고, 이를 달성하기 위한 세부 목표들을 나누어 작성하여 사용자가 체계적으로 목표를 계획하고 달성할 수 있도록 돕습니다.
+      React와 TypeScript, TailwindCSS, Vite을 활용하여 개발되었으며 Vercel로 배포하였습니다.
+      사용자 친화적인 인터페이스와 직관적인 기능으로 개인의 목표 달성을 지원하는 서비스입니다.      
+    `,
     start_date: '2025. 02. 01',
     end_date: '진행중',
     participation: '프론트엔드 1명',
