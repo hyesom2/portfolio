@@ -530,7 +530,11 @@ export const PROJECT_DATA = [
     github_url: 'https://github.com/hyesom2/Bloom',
     demo_url: 'https://mandalart-bloom.vercel.app/',
     skills: ['React', 'TypeScript', 'TailwindCSS', 'Vite', 'Vercel'],
-    main_functions: [''],
+    main_functions: [
+      'LocalStorage를 활용한 실시간 데이터 자동 저장 시스템',
+      '반응형 (PC/Mobile) UI 디자인',
+      '핵심 목표와 세부 목표를 연결하는 계층적 구조의 만다라트 계획표',
+    ],
     roles: [
       {
         id: 0,
