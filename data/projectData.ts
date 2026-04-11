@@ -538,8 +538,21 @@ export const PROJECT_DATA = [
     roles: [
       {
         id: 0,
-        title: '',
-        description: '',
+        title: '전체적인 기획',
+        description:
+          '새해 목표를 세우던 중 기존에 있는 만다라트 계획표 사이트의 "데이터 휘발성"문제로 인해 사용에 어려움을 겪었던 경험을 바탕으로 불편함을 해결하는 것을 목표로 기획했습니다.',
+      },
+      {
+        id: 1,
+        title: 'UI/UX 디자인',
+        description:
+          '만다라트 계획표의 9x9 그리드 구조를 직관적으로 레이아웃을 설계했습니다. TailwindCSS로 반응형 UI를 디자인하여 PC와 모바일 모두 핵심 목표와 세부 목표를 한눈에 볼 수 있도록 했습니다.',
+      },
+      {
+        id: 2,
+        title: '프론트엔드 개발',
+        description:
+          'React와 TypeScript를 사용해 81개의 목표 상태의 타입을 관리합니다. 또, localStorage를 활용해 새로고침 후에도 작성한 데이터가 유지되도록 구현하여 기존 만다라트 계획표 사이트의 문제를 해결했습니다.',
       },
     ],
     services: [
