@@ -290,8 +290,26 @@ export const PROJECT_DATA = [
       {
         id: 6,
         title: '폴짝(일정) 페이지',
-        description: [''],
-        image_url: [],
+        description: [
+          '나만의 일정을 생성, 편집, 삭제 기능을 제공합니다.',
+          '일정에 이름, 날짜, 지역, 이미지를 함께 등록할 수 있으며 생성된 일정은 "중", "준비", "완료" 상태로 구분되어 한 눈에 확인이 가능합니다.',
+          '일정 제목 또는 포함된 카드 내용을 페이지 내에서 검색 가능합니다.',
+          '선택한 날짜별로 스케줄 생성, 편집, 삭제, 순서 변경이 가능합니다. 스케줄에는 장소, 시간, 메모를 함께 등록할 수 있으며 장소는 지도 페이지를 통해 선택할 수 있습니다.',
+        ],
+        image_url: [
+          '/images/projects/polzzak/polzzak-0.webp',
+          '/images/projects/polzzak/polzzak-1.webp',
+          '/images/projects/polzzak/polzzak-2.webp',
+          '/images/projects/polzzak/polzzak-3.webp',
+          '/images/projects/polzzak/polzzak-4.webp',
+          '/images/projects/polzzak/polzzak-5.webp',
+          '/images/projects/polzzak/polzzak-6.webp',
+          '/images/projects/polzzak/polzzak-7.webp',
+          '/images/projects/polzzak/polzzak-8.webp',
+          '/images/projects/polzzak/polzzak-9.webp',
+          '/images/projects/polzzak/polzzak-10.webp',
+          '/images/projects/polzzak/polzzak-11.webp',
+        ],
       },
       {
         id: 7,
