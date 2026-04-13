@@ -314,8 +314,19 @@ export const PROJECT_DATA = [
       {
         id: 7,
         title: '즐겨찾기 페이지',
-        description: [''],
-        image_url: [],
+        description: [
+          '디폴트 폴더로 "기본 폴더"가 제공됩니다.',
+          '나만의 폴더를 생성 할 수 있으며, 폴더의 이름을 변경, 편집 및 삭제가 가능합니다.',
+          '즐겨찾기한 장소 목록이 표시되고 하트 아이콘 클릭으로 즐겨찾기 추가/삭제가 가능합니다.',
+          '즐겨찾기한 목록 클릭 시, 해당 장소의 상세 페이지로 이동합니다.',
+        ],
+        image_url: [
+          '/images/projects/polzzak/favorite-0.webp',
+          '/images/projects/polzzak/favorite-1.webp',
+          '/images/projects/polzzak/favorite-2.webp',
+          '/images/projects/polzzak/favorite-3.webp',
+          '/images/projects/polzzak/favorite-4.webp',
+        ],
       },
       {
         id: 8,
