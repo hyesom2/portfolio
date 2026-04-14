@@ -331,8 +331,24 @@ export const PROJECT_DATA = [
       {
         id: 8,
         title: '마이페이지',
-        description: [''],
-        image_url: [],
+        description: [
+          '가입한 정보(내 정보)의 조회, 수정 및 회원탈퇴가 가능합니다.',
+          '로그아웃 기능을 제공합니다.',
+          '즐겨찾기, 나의 폴짝, 나의 리뷰, 고객센터 등의 아이콘 메뉴들을 클릭하면 해당 기능의 페이지로 이동합니다.',
+        ],
+        image_url: [
+          '/images/projects/polzzak/mypage-0.webp',
+          '/images/projects/polzzak/mypage-1.webp',
+          '/images/projects/polzzak/mypage-2.webp',
+          '/images/projects/polzzak/mypage-3.webp',
+          '/images/projects/polzzak/mypage-4.webp',
+          '/images/projects/polzzak/mypage-5.webp',
+          '/images/projects/polzzak/mypage-6.webp',
+          '/images/projects/polzzak/mypage-7.webp',
+          '/images/projects/polzzak/mypage-8.webp',
+          '/images/projects/polzzak/mypage-9.webp',
+          '/images/projects/polzzak/mypage-10.webp',
+        ],
       },
     ],
     results: [
