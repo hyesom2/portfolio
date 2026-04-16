@@ -1,92 +1,6 @@
 export const PROJECT_DATA = [
   {
     id: 0,
-    title: '포켓몬도감 팀 프로젝트',
-    title_en: 'pokemon',
-    subTitle: '짧은 설명',
-    description:
-      'Pokemon Open API데이터를 비동기적으로 처리하고 Redux Toolkit을 활용한 리액트 프로젝트 입니다. 사용자에게 포켓몬 검색과 정보, 랜덤 선택, 포켓몬 배틀, 나의 포켓몬 리스트 관리 등 다양한 기능을 제공합니다.',
-    start_date: '2024. 04. 14',
-    end_date: '2024. 04. 21',
-    participation: '',
-    main_image: '/images/projects/pokemon/pokemon.webp',
-    github_url: '',
-    demo_url: '',
-    skills: [''],
-    main_functions: ['', '', '', ''],
-    roles: [],
-    services: [],
-    results: [
-      {
-        id: 0,
-        title: 'React 기반 SPA 개발',
-        description:
-          'React로 페이지 라우팅, 상태 관리, UI 렌더링 등 서비스 전반 구성하였습니다. 또, 페이지 단위가 많은 구조에서 컴포넌트 분리 전략을 적용해 유지보수성을 향상했습니다.',
-      },
-      {
-        id: 1,
-        title: 'Supabase를 활용한 Database연동과 Zustand를 활용한 상태 관리',
-        description:
-          'Store 단위로 기능 분리하여 상태 흐름을 직관적으로 구성하였습니다.',
-      },
-      {
-        id: 2,
-        title: '데이터 처리 및 API 연동 경험',
-        description:
-          '한국관광공사에서 제공하는 TourAPI 4.0을 연동하여 여러 데이터를 통합하여 구조화하였습니다. 또, 카데고리/지역 등의 검색 조건을 기반으로 다양한 필터링을 구현하였습니다.',
-      },
-      {
-        id: 3,
-        title: '협업이 가져오는 생산성 향상',
-        description:
-          '서로 다른 기능을 구현하지만 같은 목표를 향해 달려가는 팀원들과 소통하고 PR리뷰를 통해 다른 팀원의 코드를 학습과 어떠한 코드가 더 좋을지에 대한 토론을 할 수 있어서 좋았습니다. 또, 협업 도구(GitHub Project, Issue, PR 등)를 사용하여 각 작업할 분할하여 효율적으로 프로젝트에 참여할 수 있었습니다.',
-      },
-    ],
-  },
-  {
-    id: 1,
-    title: '마켓칼리(Karly)',
-    title_en: 'karly',
-    subTitle: '',
-    start_date: '',
-    end_date: '',
-    participation: '',
-    main_image: '/images/projects/karly/karly.webp',
-    github_url: '',
-    demo_url: '',
-    skills: [''],
-    main_functions: ['', '', '', ''],
-    roles: [],
-    services: [],
-    results: [
-      {
-        id: 0,
-        title: 'React 기반 SPA 개발',
-        description:
-          'React로 페이지 라우팅, 상태 관리, UI 렌더링 등 서비스 전반 구성하였습니다. 또, 페이지 단위가 많은 구조에서 컴포넌트 분리 전략을 적용해 유지보수성을 향상했습니다.',
-      },
-      {
-        id: 1,
-        title: 'Supabase를 활용한 Database연동과 Zustand를 활용한 상태 관리',
-        description:
-          'Store 단위로 기능 분리하여 상태 흐름을 직관적으로 구성하였습니다.',
-      },
-      {
-        id: 2,
-        title: '데이터 처리 및 API 연동 경험',
-        description:
-          '한국관광공사에서 제공하는 TourAPI 4.0을 연동하여 여러 데이터를 통합하여 구조화하였습니다. 또, 카데고리/지역 등의 검색 조건을 기반으로 다양한 필터링을 구현하였습니다.',
-      },
-      {
-        id: 3,
-        title: '협업이 가져오는 생산성 향상',
-        description:
-          '서로 다른 기능을 구현하지만 같은 목표를 향해 달려가는 팀원들과 소통하고 PR리뷰를 통해 다른 팀원의 코드를 학습과 어떠한 코드가 더 좋을지에 대한 토론을 할 수 있어서 좋았습니다. 또, 협업 도구(GitHub Project, Issue, PR 등)를 사용하여 각 작업할 분할하여 효율적으로 프로젝트에 참여할 수 있었습니다.',
-      },
-    ],
-  },
-  {
-    id: 2,
     title: '득근득근',
     title_en: 'dgdg',
     subTitle: '당신의 매일의 운동을 간편하게 기록하고, 성취감을 느껴보세요.',
@@ -113,7 +27,7 @@ export const PROJECT_DATA = [
     results: [],
   },
   {
-    id: 3,
+    id: 1,
     title: '폴짝(Polzzak)',
     title_en: 'polzzak',
     subTitle: '국내 여행지 검색 및 일정 관리 웹앱',
@@ -379,7 +293,7 @@ export const PROJECT_DATA = [
     ],
   },
   {
-    id: 4,
+    id: 2,
     title: '리그램(RIGRAM)',
     title_en: 'rigram',
     subTitle: '대학교 디지털 졸업앨범 웹 애플리케이션',
@@ -558,7 +472,7 @@ export const PROJECT_DATA = [
     ],
   },
   {
-    id: 5,
+    id: 3,
     title: 'Bloom(블룸)',
     title_en: 'bloom',
     subTitle: '나만의 만다라트 계획표 만들기',
