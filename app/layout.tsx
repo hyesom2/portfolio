@@ -1,8 +1,10 @@
-import '@/app/globals.css';
 import Footer from '@/components/footer';
 import Header from '@/components/header';
+import Spinner from '@/components/ui/spinner';
 import type { Metadata } from 'next';
 import localFont from 'next/font/local';
+
+import './globals.css';
 
 const pretendard = localFont({
   src: '../fonts/pretendard/PretendardVariable.woff2',
@@ -24,6 +26,7 @@ export default function RootLayout({
   return (
     <html lang='ko' className={`${pretendard.variable}`}>
       <body className={`relative ${pretendard.className} antialiased`}>
+        <Spinner />
         <Header />
         <main className='flex flex-col w-full h-full px-6 pt-16 pb-5 mx-auto md:gap-20 md:max-w-[1200px] md:px-0 md:pt-24 md:pb-5'>
           {children}
