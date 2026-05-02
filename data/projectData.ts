@@ -517,9 +517,13 @@ export const PROJECT_DATA = [
     services: [
       {
         id: 0,
-        title: '',
-        description: [],
-        image_url: [],
+        title: '메인 화면 (데스크톱)',
+        description: [
+          '9×9 그리드 형태의 만다라트 계획표 전체를 한 눈에 확인할 수 있습니다.',
+          '중심 목표(핵심 목표)를 중앙에 배치하고, 8개의 세부 목표가 주변을 둘러싸는 계층적 구조로 표시됩니다.',
+          '좌측 사이드바에는 연도, 마스코트 일러스트, 올해의 다짐을 입력할 수 있는 영역이 위치합니다.',
+        ],
+        image_url: ['/images/projects/bloom/bloom_pc.webp'],
       },
     ],
     results: [
